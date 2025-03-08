@@ -1,5 +1,62 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: rgb(46, 78, 47);
 }
+
+.card {
+    margin-top: 50px;
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.spade {
+ color: black;
+}
+
+.club {
+    color: rgb(29, 94, 23);
+}
+
+.heart {
+    color: rgb(156, 11, 11);
+}
+ .diamond {
+    color: rgb(20, 22, 161);
+ }
+
+ .top-icon {
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    font-size: 112px;
+}
+
+.card-number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, sans-serif;
+    font-size: 240px;
+    text-shadow: black;
+}
+
+
+.bottom-icon {
+    position: absolute;
+    bottom: -5px;
+    right: 20px;
+    font-size: 112px;
+}
+
+.btn {
+    margin: 0;
+}
+
+#updateCardBtn {
+    color:rgb(29, 94, 23);
+    font-weight: bold;
+  }
