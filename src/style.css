@@ -2,12 +2,27 @@
 
 body{
     background: rgb(46, 78, 47);
+    background-image: url('/workspaces/Jonas_Random_Card_Generator/src/assets/5.jpg'); /* Cambia por la ruta real de tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Asegura que cubra el 100% del alto de la pantalla */
+    margin: 0; /* Elimina los márgenes predeterminados del body */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start ;
+    padding: 40px;
+}
+
+
+.container-card-and-button {
+    min-width: 320px; /* Evita que se colapsen en pantallas muy pequeñas */
 }
 
 .card {
-    margin-top: 50px;
-    width: 400px;
-    height: 600px;
+    width: 360px;
+    height: 540px;
     border-radius: 10px;
     position: relative;
 }
